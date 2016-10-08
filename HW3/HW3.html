@@ -3,27 +3,40 @@
 <html>
 	<head>
 		<title>PUI HW 3</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<script src="HW3.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script src="HW3.js" async></script>
 
 	</head>
 	<body>
-		<nav class="navbar navbar-default">
-			<div class="col-xs-1"></div>
-			<div class="navbar-header">
-				<h2>My Todo List</h2>
-			</div>
-		</nav>
+		<div>
+			<nav class="navbar navbar-default">
+				<div class="col-xs-1"></div>
+				<div class="navbar-header">
+					<h2>My Todo List</h2>
+				</div>
+			</nav>
+		</div>
+		<div>
+			<ul class = "nav nav-tabs">
+				<li><a href="#">All Tasks</a></li>
+				<li><a href="#">Complete</a></li>
+			</ul>
+		</div>
 
 
 		<div class="row">
 			<div class="col-xs-3"></div>
 			<ul id="list" class="col-xs-6" class="list-group-item">
-				<li class="list-group-item">Example<input id="check" type="checkbox" class="pull-right"></li>
+				<!--
+				<li class="list-group-item">Example<input id="check" type="checkbox" class="pull-right"></li> -->
 			</ul>
 		</div>		
 
